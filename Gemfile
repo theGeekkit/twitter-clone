@@ -55,9 +55,9 @@ group :development, :test do
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
   gem "devise"
   gem "factory_bot_rails"
-  gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "master"
+  gem "faker", git: "https://github.com/faker-ruby/faker.git", branch: "main"
   gem "pry-rails"
-  gem "rspec-rails", "`> 5.1", ">= 5.1.2"
+  gem "rspec-rails"
 end
 
 group :development do
